@@ -1,0 +1,26 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Bookshelf API",
+  "main": "./src/server.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "start-dev": "nodemon ./src/server.js",
+    "start-prod": "NODE_ENV=production node ./src/server.js"
+  },
+  "author": "Aditya Rahman <mail@aditaja.my.id>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kudaliar032/dicoding-bmabp-bookshelf-api"
+  },
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
+  }
+}
